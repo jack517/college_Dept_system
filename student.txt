@@ -1,0 +1,510 @@
+<?php
+if(isset($_GET['student'])){
+include "$_SERVER[DOCUMENT_ROOT]/MEA/studentregister.php";
+?>
+
+
+
+<!Doctype html>
+<html>
+<style>
+.carousel-inner>.item>img,.carousel-inner>.item>a>img,{
+width:70%;
+height:auto;
+}
+.carousel{
+width:90%;
+height:auto;
+margin-top:-500px;}
+.fuck{
+margin-top:210px;
+position:absolute;
+}
+
+.ek{
+width:1000px;
+height:1000px;
+}.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.fuck{
+margin-top:210px;
+width:1000px;
+}
+a:hover .fck{
+color:black;
+}
+.containerdt {
+      padding:80px 120px;
+	  width:900px;
+	  
+	  margin-top:-600px;
+  margin-left:-120px;}
+  
+
+
+
+.login-page {
+  padding: 5% 0 0;
+
+
+  width: 360px;
+  height:auto;
+  margin: auto;
+}
+.form {
+margin-left: 300px;
+margin-top:-40px;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+ width:360px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px; 
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button1:hover,.form button1:active,.form button1:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15 px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form  {
+  display: none;
+}
+.h{
+margin-top:-30px;}
+.container3 {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0  auto ;
+}
+.container3:before, .container3:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container3 .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container3 .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container3 .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container3 .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container3 .info span .fa {
+  color: #EF3B3A;
+}
+.container5{
+margin-right:200px;
+margin-left:20px;
+margin-top:-500px;
+width:530px;
+height:410px;
+border:2px solid black;
+}
+.container2{
+width:1000px;
+height:1000px;
+margin-left:180px;
+margin-right:-50px;
+margin-bottom:50px;
+
+border:1px solid black;
+}
+img{
+margin-left:30px;
+margin-top:10px;
+}
+.font{
+font-size:40px;
+font-weight:300;
+line-height:72px;
+font-family:'Raleway',sans-serif;
+margin-left:280px;
+margin-top:-140px;
+padding:5px;}
+.font2{
+font-size:28px;
+font-weight:200;
+line-height:72px;
+font-family:'Raleway',sans-serif;
+margin-left:280px;
+margin-top:-50px;
+color:black;
+text-align:center;}
+
+
+.upper{
+background-color:#BA55D3;
+width:1000px;
+height:230px;
+color:white;
+}
+
+
+</style>
+<head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+
+</head>
+<div class="container2"><div class="upper"><img src="nitrr.jpg" width="200" height="200"><h1 class="font">National Institute Of Technology,Raipur</h1>
+<h2 class="font2">(Department Of  Mechanical Engineering)</h2>
+</div>
+<nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a  class="dropdown-toggle" data-toggle="dropdown" href="#">Facilities<span class="caret"></span></a>
+			 <ul class="dropdown-menu">
+<li><a href="#">Labs</a></li>
+            <li><a href="#">Classrooms</a></li>
+			 <li><a href="#">Workshops</a></li>
+           <li><a href="#">Library</a></li>
+           
+            </ul>
+			
+			</li>&nbsp;&nbsp;
+            <li><a class="dropdown-toggle" data-toggle="dropdown"href="#">Student Activities<span class="caret"></span></a>
+			 <ul class="dropdown-menu">
+<li class="dropdown-submenu"><a href="#" class="test" tabindex="-1">MEA<span class="caret"></span></a>
+<ul class="dropdown-menu">
+        
+<li class="dropdown-submenu"><a tabindex="-1" href="#" class="test">Technical<span class="caret"></span></a>
+
+<ul class="dropdown-menu">
+              <li><a href="#">2016</a></li>
+              <li><a href="#">2017</a></li>
+            </ul>
+
+
+</li>
+         <li class="dropdown-submenu"><a tabindex="-1" href="#" class="test">Cultural<span class="caret"></span></a>
+
+<ul class="dropdown-menu">
+              <li><a href="#">2016</a></li>
+              <li><a href="#">2017</a></li>
+            </ul>
+
+
+ </ul>
+
+
+</li>
+
+            <li  class="dropdown-submenu"><a href="#" class="test" tabindex="-1">MotoSports<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+ 
+  <li class="dropdown-submenu"><a tabindex="-1" href="#" class="test">SAE<span class="caret"></span></a>
+<ul class="dropdown-menu">
+ 
+
+              <li><a href="#">BAJA</a></li>
+              <li><a href="#">SUPRA</a></li>
+			  <li><a href="#">QUAD TORC</a></li>
+              <li><a href="#">EFFICINCY CYCLE</a></li>
+           
+            </ul>
+			<li><a href="#">ASME</a></li>
+              
+</ul>
+</li>
+      
+			
+			
+			</ul>
+			</li>
+			<li><a href="#">Faculty</a></li>&nbsp;&nbsp;
+            
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+<li><a href="#">Research Projects</a></li>
+            <li><a href="#">Student Projects</a></li>
+            </ul>	</li>&nbsp;&nbsp;
+			<li><a href="#">Placement and Internship</a></li>&nbsp;&nbsp;
+			<li><a href="#">Blogs</a></li>&nbsp;&nbsp;
+			<li><a href="#">Feedback</a></li>&nbsp;&nbsp;
+			 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Others<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+<li><a href="#">Scholarship</a></li>
+            <li><a href="#"></a></li>
+			 <li><a href="#">ISNEE</a></li>
+           
+            </ul>
+			
+			
+			</li>&nbsp;&nbsp;
+           
+			
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+<li><a href="#">Alumni</a></li>
+            <li><a href="#">Corporate</a></li>
+			 <li><a href="#">Faculty</a></li>
+           <li><a href="#">Students</a></li>
+           
+            </ul>
+			
+			
+			</li>&nbsp;&nbsp;
+            <li>
+                        </li>
+          
+		  </ul>
+          </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+	<div class="ek">
+  <div class="login-page">
+  <div class="form">
+    <form class="register-form" id="std" method="post" action="">
+<h1>Student Registration</h1>
+      <input type="text" class="form-control" placeholder=" Full Name"name="stdname"/>
+<span class="error">* <?php echo $stdnameError;?></span>
+
+      <input type="password" class="form-control" placeholder="password" name="stdpass"/>
+<span class="error">* <?php echo $stdpasswordError;?></span>
+
+      <input type="email"  class="form-control"placeholder="email address" name="stdemail"/>
+<span class="error">* <?php echo $stdemailError;?></span>
+
+
+	  <input type="text"  class="form-control"placeholder="Roll Number" name="rollno"/>
+<span class="error">* <?php echo $rollError;?></span>
+
+
+	  
+	   <select class="form-control" name="sem" >
+	   <option>Semester</option>
+	   <option>I</option>
+	   <option>II</option>
+	   <option>III</option>
+	  <option>IV</option>
+	   <option>V</option>
+	   <option>VI</option>
+	   <option>VII</option>
+	   <option>VIII</option>
+	    </select><br>
+<span class="error">* <?php echo $semError;?></span>
+
+
+	  <input type="date" class="form-control" placeholder="Date Of Birth" name="date"/>
+<span class="error">* <?php echo $dobError;?></span>
+
+
+      <input type="text"  class="form-control"placeholder="Contact" name="num"/>
+	  <span class="error">* <?php echo $contactError;?></span>
+
+      <input type="submit" name="submit" class="btn btn-success btn-block btn-lg">Register</button>
+          
+	  </form>
+
+
+	      </div>
+	 </div>
+	 </div>
+&nbsp;
+&nbsp;&nbsp;&nbsp;
+ 
+<div class="containerdt">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="newcol-2.jpg" alt="New York" width="800" height="700">
+        <div class="carousel-caption">
+          </div>
+      </div>
+
+      <div class="item">
+        <img src="necol-3.jpg" alt="Chicago" width="800" height="700">
+        <div class="carousel-caption">
+          </div>
+      </div>
+    
+      <div class="item">
+        <img src="newcol-4.jpg" alt="Los Angeles" width="800" height="700">
+        <div class="carousel-caption">
+          </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+ 
+
+    </div>
+</div>
+  
+<script>
+$('#student').click(function(){
+
+   $('#std').show();
+   $('#df').hide();
+   $('#alm').hide();
+   $('#fcy').hide();
+   $('#cpt').hide();
+   
+});
+$('#alumni').click(function(){
+
+   $('#alm').show();
+   $('#df').hide();
+   $('#std').hide();
+   $('#cpt').hide();
+   $('#fcy').hide();
+   
+});
+$('#faculty').click(function(){
+
+   $('#fcy').show();
+   $('#df').hide();
+   $('#std').hide();
+   $('#cpt').hide();
+   $('#alm').hide();
+   
+});
+$('#corporate').click(function(){
+
+   $('#cpt').show();
+   $('#df').hide();
+   $('#std').hide();
+   $('#alm').hide();
+   $('#fcy').hide();
+   
+});
+
+
+
+$('#p').click(function(){
+
+   $('#df').show();
+   $('#alm').hide();
+ $('#std').hide();
+ $('#fcy').hide();
+ $('#cpt').hide();
+
+  });
+
+
+
+</script>
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+ 
+<?php
+}
+?>
